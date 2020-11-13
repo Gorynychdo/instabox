@@ -1,0 +1,21 @@
+{
+  "name": "instanpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "DEBUG=ig:mqtt:* node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^10.0.0",
+    "bluebird": "^3.7.2",
+    "instagram_mqtt": "^1.0.0-alpha.0",
+    "instagram-private-api": "^1.43.3",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "log4js": "^6.3.0"
+  }
+}
